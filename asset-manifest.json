@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Elearning-website/static/css/main.cb593c27.css",
+    "main.js": "/Elearning-website/static/js/main.6ea00a61.js",
+    "static/media/AA.png": "/Elearning-website/static/media/AA.52890b413916437cf729.png",
+    "static/media/section3.jpg": "/Elearning-website/static/media/section3.79952e9422c4f9f04c6a.jpg",
+    "static/media/cover1.jpg": "/Elearning-website/static/media/cover1.7044e5e4af75752e6142.jpg",
+    "static/media/3.png": "/Elearning-website/static/media/3.b4d91ab5c10864bb2acb.png",
+    "static/media/1.png": "/Elearning-website/static/media/1.fc3465ac96190aa10f19.png",
+    "static/media/C.png": "/Elearning-website/static/media/C.7ea37de5bf400f82bb26.png",
+    "static/media/B.png": "/Elearning-website/static/media/B.5cdfe0da8784db04ef31.png",
+    "static/media/4.png": "/Elearning-website/static/media/4.7e848db14029a882b3ae.png",
+    "static/media/6.png": "/Elearning-website/static/media/6.c4e7998a6821491f94f3.png",
+    "static/media/A.png": "/Elearning-website/static/media/A.4771545003a3fc13a22e.png",
+    "static/media/cover2.webp": "/Elearning-website/static/media/cover2.998ff0b284c13058e034.webp",
+    "static/media/D.png": "/Elearning-website/static/media/D.5c8cfb0325e237c62b98.png",
+    "static/media/5.png": "/Elearning-website/static/media/5.252cf73a75a3b9a6965a.png",
+    "static/media/E.png": "/Elearning-website/static/media/E.3b4539fc226e557443f1.png",
+    "static/media/2.png": "/Elearning-website/static/media/2.c9e9c19dd859c64c28c0.png",
+    "static/media/Logo1.png": "/Elearning-website/static/media/Logo1.8d4b41bbe47ad7b97cb9.png",
+    "static/media/cover3.jpg": "/Elearning-website/static/media/cover3.4fee278c04474589b25a.jpg",
+    "static/media/eleanor.png": "/Elearning-website/static/media/eleanor.829f9a6b647f0b0a9bd3.png",
+    "static/media/cameron.png": "/Elearning-website/static/media/cameron.a8748ebaefc55b27b738.png",
+    "static/media/kristin.png": "/Elearning-website/static/media/kristin.3aa89899f241af8f68f8.png",
+    "static/media/albert.png": "/Elearning-website/static/media/albert.7dd3d861cb8d724dcf34.png",
+    "static/media/annette.png": "/Elearning-website/static/media/annette.47695bf2b4580bf91666.png",
+    "index.html": "/Elearning-website/index.html",
+    "main.cb593c27.css.map": "/Elearning-website/static/css/main.cb593c27.css.map",
+    "main.6ea00a61.js.map": "/Elearning-website/static/js/main.6ea00a61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb593c27.css",
+    "static/js/main.6ea00a61.js"
+  ]
+}
