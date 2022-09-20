@@ -9,23 +9,36 @@ export default function Section2() {
         see more<ion-icon name="arrow-forward-sharp"></ion-icon>{" "}
       </a>
       <div className="section2-cards">
-        <Card img={require("./assests/1.png")} png="cover1.jpg" name="Megan" />
-        <Card img={require("./assests/2.png")} png="cover1.jpg" name="Megan" />
-        <div className="grid-extras">
+        <div className="section-2-cards">
+          <Card
+            img={require("./assests/1.png")}
+            png="cover1.jpg"
+            name="Megan"
+          />
+        </div>
+        <div className="section-2-cards">
+          <Card
+            img={require("./assests/2.png")}
+            png="cover1.jpg"
+            name="Megan"
+          />
+        </div>
+
+        <div className="section-2-cards">
           <Card
             img={require("./assests/3.png")}
             png="cover1.jpg"
             name="Megan"
           />
         </div>
-        <div className="grid-extras">
+        <div className="section-2-cards">
           <Card
             img={require("./assests/4.png")}
             png="cover1.jpg"
             name="Megan"
           />
         </div>
-        <div className="grid-extras">
+        <div className="section-2-cards">
           <Card
             img={require("./assests/4.png")}
             png="cover1.jpg"

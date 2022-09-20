@@ -10,28 +10,28 @@ export default function Header() {
         <h1>Lorem ipsum dolor amet, consectetur adipiscing.</h1>
       </div>
 
-      <div>
+      <div className="grid-item">
         <Card img={CardData[0].img} png="cover1.jpg" name={CardData[0].name} />
       </div>
-      <div>
+      <div className="grid-item">
         <Card img={CardData[1].img} png="cover2.webp" name={CardData[1].name} />
       </div>
-      <div>
+      <div className=" grid-item">
         <Card img={CardData[2].img} png="cover3.jpg" name={CardData[2].name} />
       </div>
-      <div>
+      <div className=" grid-item">
         <Card img={CardData[4].img} png="cover2.webp" name={CardData[3].name} />
       </div>
-      <div className="grid-extras">
+      <div className=" grid-item">
         <Card img={CardData[3].img} png="cover1.jpg" name={CardData[4].name} />
       </div>
-      <div className="grid-extras">
+      <div className="grid-item">
         <Card img={CardData[2].img} png="cover2.webp" name={CardData[0].name} />
       </div>
-      <div className="grid-extras">
+      <div className=" grid-item">
         <Card img={CardData[4].img} png="cover3.jpg" name={CardData[1].name} />
       </div>
-      <div className="grid-extras">
+      <div className=" grid-item">
         <Card img={CardData[0].img} png="cover2.webp" name={CardData[2].name} />
       </div>
       <a href="#" className="freelancer-link">
