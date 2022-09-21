@@ -352,12 +352,15 @@ strong {
   }
   .section2-cards,
   .section4-cards {
-    gap: 1px;
+    gap: 13px;
   }
   .section-2,
   .section-3,
   .section-4 {
     padding: 9rem 2rem;
+  }
+  .card {
+    width: 20.8rem;
   }
 }
 @media (max-width: 1100px) {
@@ -503,12 +506,19 @@ strong {
   }
 }
 @media (max-width: 821px) {
+  .hero-container {
+    padding: 8rem 1.6rem;
+  }
+  .grid {
+    gap: 15px;
+    row-gap: 24px;
+  }
   .input-box {
     width: 28rem;
   }
   .section2-cards,
   .section4-cards {
-    gap: 20px;
+    gap: 2rem;
   }
   .card {
     width: 176px;
@@ -516,6 +526,11 @@ strong {
 
   .section3-content {
     padding: 5rem 1rem;
+  }
+  .section-2,
+  .section-3,
+  .section-4 {
+    padding: 9rem 3rem;
   }
 }
 
@@ -527,9 +542,6 @@ strong {
     width: 170px;
   }
 
-  .hero-container {
-    padding: 8rem 1.6rem;
-  }
   .profile-name {
     font-size: 13px;
     line-height: 24px;
