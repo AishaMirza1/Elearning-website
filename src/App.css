@@ -378,7 +378,7 @@ strong {
   .section-2,
   .section-3,
   .section-4 {
-    padding: 9rem 3rem;
+    padding: 9rem 2rem;
   }
   .section2-cards,
   .section4-cards {
@@ -394,6 +394,11 @@ strong {
 }
 
 @media (max-width: 913px) {
+  .section-2,
+  .section-3,
+  .section-4 {
+    padding: 9rem 5rem;
+  }
   .nav {
     display: flex;
     padding: 1.6rem 3rem;
@@ -542,6 +547,11 @@ strong {
     width: 350px;
     height: 400px;
   }
+  .section-2,
+  .section-3,
+  .section-4 {
+    padding: 9rem 2rem;
+  }
 }
 @media (max-width: 541px) {
   .grid {
@@ -631,6 +641,7 @@ strong {
   .section4-cards {
     display: flex;
     gap: 3.8rem;
+    margin-top: 3rem;
   }
   /* section--3 */
 
@@ -668,7 +679,7 @@ strong {
   .section-4 h2 {
     font-size: 34px;
     padding: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
 
   .footer .container {
@@ -713,8 +724,8 @@ strong {
     right: 7%;
   }
   .freelancer-link4 {
-    right: 34%;
-    top: 34%;
+    right: 15%;
+    top: 28%;
   }
   .grid {
     gap: 15px;
@@ -722,7 +733,7 @@ strong {
 }
 @media (max-width: 428px) {
   .card {
-    width: 183px;
+    width: 181px;
   }
   .input-box {
     width: 38.8rem;
@@ -732,11 +743,15 @@ strong {
     gap: 3rem;
   }
 }
-@media (max-width: 412px) {
+@media (max-width: 415px) {
   .section-2-cards:nth-child(3),
   .section-2-cards:nth-child(4),
   .section-2-cards:nth-child(5) {
     display: none;
+  }
+  .section2-cards,
+  .section4-cards {
+    gap: 1.5rem;
   }
 }
 @media (max-width: 394px) {
@@ -755,6 +770,15 @@ strong {
   .input-box {
     width: 35rem;
     padding: 0rem;
+  }
+  .section2-cards,
+  .section4-cards {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 376px) {
+  .card {
+    width: 164px;
   }
 }
 @media (max-width: 360px) {
@@ -806,9 +830,13 @@ strong {
     padding: 0rem;
   }
 }
-@media (max-width: 315px) {
+@media (max-width: 321px) {
+  .section-2 .card,
+  .section-4 .card {
+    width: 141px;
+  }
   .nav {
-    padding: 1.6rem 2rem;
+    padding: 1.6rem 1.8rem;
   }
   .input-box {
     width: 290px;
@@ -828,8 +856,10 @@ strong {
     padding: 0.5rem;
   }
   .section-3 {
-    padding: 5rem 1.6rem;
+    padding: 5rem 1rem;
     flex-direction: column;
+    align-items: center;
+    justify-items: center;
   }
   .section3-img img {
     border-radius: 11px;
@@ -856,5 +886,9 @@ strong {
   .grid-item:nth-child(4),
   .grid-item:nth-child(5) {
     display: none;
+  }
+  .section2-cards,
+  .section4-cards {
+    gap: 1rem;
   }
 }
